@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="Emergency HVAC Repair Phoenixville PA | 24/7 Same-Day Service"
+  description="24/7 emergency HVAC repair in Phoenixville, PA. Fast response for no heat, no cooling, and system failures. Licensed technicians, upfront pricing."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → <a href="/services/emergency-hvac-repair/">Services</a> → Emergency Repair</div>
+      <h1>Emergency HVAC Repair in Phoenixville, PA</h1>
+      <p>When heating or cooling fails at the worst moment — nights, weekends, or holidays — our licensed technicians respond fast across Phoenixville and Chester County.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay} — 24/7</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-block">
+      <h2>When You Need Emergency HVAC Service</h2>
+      <p>Phoenixville homeowners call for emergency repair most often when there is complete loss of heat in winter, no cooling in summer, strange burning smells, or a system that will not turn on. These situations cannot wait until business hours. Discomfort, frozen pipes, and safety concerns escalate quickly.</p>
+      <p>We treat the following as priority same-day / after-hours calls:</p>
+      <ul>
+        <li>No heat in freezing weather</li>
+        <li>No cooling during heat waves</li>
+        <li>Burning smell or electrical odors from the unit</li>
+        <li>Water leaking from the indoor unit or around the outdoor condenser</li>
+        <li>System making loud banging or grinding with visible distress</li>
+      </ul>
+
+      <h2>What Happens When You Call</h2>
+      <ol>
+        <li><strong>You reach us</strong> — Phone or text. Tell us what is happening. No technical knowledge required.</li>
+        <li><strong>We dispatch quickly</strong> — Average response under 60 minutes in Phoenixville during normal conditions. Fully stocked trucks.</li>
+        <li><strong>Full diagnostic</strong> — We inspect electrical, refrigerant, combustion, airflow, and controls.</li>
+        <li><strong>Clear written quote</strong> — Before any repair begins you receive a straightforward estimate. Approve or decline — your decision.</li>
+        <li><strong>Repair or temporary safety measures</strong> — Most common failures are fixed on the first visit. If replacement is the only safe option, we explain why and can often install the same day.</li>
+      </ol>
+
+      <h2>Common Emergency Failures We See in Phoenixville</h2>
+      <h3>Failed Capacitor (AC)</h3>
+      <p>Capacitors help start the compressor and fan. Symptoms: outdoor unit hums but does not start, or no cooling at all. Replacement is usually a same-visit repair.</p>
+      <h3>Igniter or Flame Sensor (Furnace)</h3>
+      <p>Furnace tries to start but shuts down. Often the hot-surface igniter or flame sensor has failed. A quick, inexpensive part swap restores heat in most cases.</p>
+      <h3>Blower Motor Failure</h3>
+      <p>No air from vents even though the system is running. We diagnose motor, capacitor, and control board issues and repair or replace as needed.</p>
+      <h3>Refrigerant Leak or Low Charge</h3>
+      <p>AC runs but blows warm air. We locate and repair leaks when possible and recharge to manufacturer specifications.</p>
+
+      <h2>Why Phoenixville Homeowners Choose Us for Emergencies</h2>
+      <ul>
+        <li>True 24/7 availability — nights, weekends, holidays</li>
+        <li>No after-hours surcharge surprises — pricing discussed upfront</li>
+        <li>Licensed &amp; insured Pennsylvania HVAC technicians</li>
+        <li>Stocked vehicles for capacitors, igniters, motors, thermostats, and common parts</li>
+        <li>Written workmanship guarantee on repairs</li>
+      </ul>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary" style="font-size:1.1rem">Call Now for Emergency Service — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

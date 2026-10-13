@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="HVAC Installation Phoenixville PA | New Systems"
+  description="Professional HVAC installation in Phoenixville, PA. Furnaces, air conditioners, and heat pumps sized correctly for your home. Code-compliant installs with warranty."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → HVAC Installation</div>
+      <h1>HVAC Installation in Phoenixville, PA</h1>
+      <p>When repair no longer makes sense, a properly sized and installed new system delivers better comfort and lower energy bills.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Request an Estimate — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-block">
+      <h2>Right-Sized, Code-Compliant Installs</h2>
+      <p>We perform Manual J load calculations so your new system is neither oversized nor undersized. Proper installation includes correct refrigerant charge, sealed ducts, and safety compliance for Pennsylvania codes.</p>
+      <h2>What We Install</h2>
+      <ul>
+        <li>High-efficiency gas furnaces</li>
+        <li>Central air conditioners</li>
+        <li>Air-source heat pumps and dual-fuel systems</li>
+        <li>Ductless mini-splits</li>
+        <li>Smart thermostats and zoning options</li>
+      </ul>
+      <p>Every installation includes a workmanship warranty and manufacturer warranty support.</p>
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Get Installation Quote — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

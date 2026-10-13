@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="About Us | HVAC Repair Phoenixville PA"
+  description="Local licensed HVAC technicians serving Phoenixville and Chester County. Same-day service, honest pricing, written guarantee."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → About Us</div>
+      <h1>About HVAC Repair Phoenixville</h1>
+      <p>Local technicians focused on honest diagnosis, quality repairs, and keeping Phoenixville homes comfortable year-round.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Our Approach</h2>
+      <p>We believe HVAC service should be straightforward: diagnose accurately, explain clearly, quote before work begins, and stand behind the repair. No pressure tactics, no mystery fees.</p>
+      <p>Based at 25 Gay St in Phoenixville, we serve homeowners and small businesses throughout Chester County. Our technicians carry common parts so most jobs finish on the first visit.</p>
+      <h2>What Sets Us Apart</h2>
+      <ul>
+        <li>True same-day and emergency availability</li>
+        <li>Licensed and insured for Pennsylvania</li>
+        <li>Upfront written estimates</li>
+        <li>Workmanship guarantee on repairs</li>
+        <li>Familiarity with local housing stock and climate demands</li>
+      </ul>
+      <div style="margin-top:2rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+        <a href="/contact/" class="btn btn-outline-dark" style="margin-left:0.75rem">Contact Form</a>
+      </div>
+    </div>
+  </section>
+</Layout>

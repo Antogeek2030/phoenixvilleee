@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="Poor Airflow HVAC Phoenixville PA | HVAC Repair"
+  description="Weak or uneven airflow in Phoenixville homes. Filter, duct, and blower solutions."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Problems → Poor Airflow from Vents</div>
+      <h1>Poor Airflow from Vents in Phoenixville, PA</h1>
+      <p>Weak or uneven airflow in Phoenixville homes. Filter, duct, and blower solutions.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>What Causes This Problem</h2>
+      <p>Common causes include worn parts, dirty filters, electrical issues, refrigerant problems, or failing motors. Our technicians diagnose the root cause rather than guessing.</p>
+      <h2>What We Do</h2>
+      <ol>
+        <li>Full system inspection with proper instruments</li>
+        <li>Clear explanation of findings and written estimate</li>
+        <li>Repair with quality parts when approved</li>
+        <li>Performance verification before we leave</li>
+      </ol>
+      <p>Most issues are resolved on the first visit. Call us for same-day service in Phoenixville and surrounding Chester County communities.</p>
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Service — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

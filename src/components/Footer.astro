@@ -1,0 +1,41 @@
+---
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>HVAC Repair Phoenixville</h4>
+        <p>Licensed HVAC repair, replacement, and maintenance serving Phoenixville and Chester County. Same-day service, upfront pricing, written guarantee.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="/services/emergency-hvac-repair/">Emergency Repair</a></p>
+        <p><a href="/services/ac-repair/">AC Repair</a></p>
+        <p><a href="/services/furnace-repair/">Furnace Repair</a></p>
+        <p><a href="/services/hvac-installation/">Installation</a></p>
+        <p><a href="/services/hvac-maintenance/">Maintenance</a></p>
+      </div>
+      <div>
+        <h4>Common Problems</h4>
+        <p><a href="/problems/no-cooling/">No Cooling</a></p>
+        <p><a href="/problems/no-heat/">No Heat</a></p>
+        <p><a href="/problems/strange-noises/">Strange Noises</a></p>
+        <p><a href="/problems/poor-airflow/">Poor Airflow</a></p>
+        <p><a href="/problems/thermostat-problems/">Thermostat Issues</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href={`tel:${phone}`}>{phoneDisplay}</a></p>
+        <p>25 Gay St<br />Phoenixville, PA 19460</p>
+        <p>Open 24 / 7 for emergencies</p>
+        <p style="margin-top:0.75rem"><a href="/service-areas/">Service Areas</a> · <a href="/blog/">Blog</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {year} HVAC Repair Phoenixville PA. All rights reserved. | <a href="/privacy/">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>

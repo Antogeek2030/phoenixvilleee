@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="HVAC Maintenance Phoenixville PA | Seasonal Tune-Ups"
+  description="Professional HVAC maintenance in Phoenixville, PA. Spring and fall tune-ups that improve efficiency, extend equipment life, and prevent breakdowns."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → HVAC Maintenance</div>
+      <h1>HVAC Maintenance in Phoenixville, PA</h1>
+      <p>Regular maintenance keeps your system efficient, safe, and less likely to fail during extreme weather.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Schedule a Tune-Up — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-block">
+      <h2>What a Professional Tune-Up Includes</h2>
+      <ul>
+        <li>Inspect and clean filters, coils, and drain lines</li>
+        <li>Check refrigerant levels and electrical connections</li>
+        <li>Test safety controls, ignition, and combustion (gas systems)</li>
+        <li>Lubricate motors and inspect belts/bearings</li>
+        <li>Verify thermostat operation and airflow</li>
+        <li>Measure temperature split and system performance</li>
+      </ul>
+      <p>We recommend spring (cooling) and fall (heating) visits for most Phoenixville homes.</p>
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Book Maintenance — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

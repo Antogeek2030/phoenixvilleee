@@ -1,0 +1,299 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge">● PHOENIXVILLE &amp; CHESTER COUNTY · 24 / 7 EMERGENCY SERVICE</div>
+        <h1>HVAC<br />REPAIR IN <span>PHOENIXVILLE</span></h1>
+        <p class="hero-sub">Fast Fixes. Real Comfort. Same-Day Service.</p>
+        <p class="hero-desc">When your AC fails in a heatwave or your furnace quits on a freezing night, every hour counts. Our licensed technicians are on call around the clock — delivering expert heating &amp; cooling repairs, upfront pricing, and workmanship backed by a written guarantee for every home in Phoenixville and Chester County.</p>
+        <div class="hero-tags">
+          <span class="hero-tag">⏱ Same-Day Response</span>
+          <span class="hero-tag">🛡 Licensed &amp; Insured</span>
+          <span class="hero-tag">✓ Upfront Pricing</span>
+          <span class="hero-tag">📞 24 / 7 Emergency</span>
+          <span class="hero-tag">🛡 Workmanship Guarantee</span>
+        </div>
+        <div class="hero-ctas">
+          <a href={`tel:${phone}`} class="btn btn-primary">Schedule an Appointment</a>
+          <a href={`tel:${phone}`} class="btn btn-outline">Get a Quote</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-icon">❄️</div>
+          <h3>No Cooling or Heat?</h3>
+          <p>We diagnose and repair AC units, furnaces, heat pumps &amp; more the same day in most cases.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section section-alt" id="why">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Phoenixville Homeowners <span>Choose Us</span></h2>
+        <p>Phoenixville homes need reliable heating and cooling year-round. When your system struggles, you need a licensed local specialist who responds the same day and repairs it right the first time.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Same-Day Diagnosis &amp; Repair</h3>
+          <p>Most same-day HVAC repair calls in Phoenixville are completed within hours of your call — no multi-day waits.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📜</div>
+          <h3>Licensed &amp; Certified</h3>
+          <p>Every technician is licensed, insured, and trained on furnaces, air conditioners, heat pumps, and duct systems common in Chester County.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💵</div>
+          <h3>Upfront Pricing, Zero Surprises</h3>
+          <p>We quote before we wrench. No hidden fees, no upsell pressure — just honest HVAC repair at fair local rates.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3>Local to Phoenixville</h3>
+          <p>Based in Phoenixville — we know the housing stock, common brands (Carrier, Trane, Lennox, Goodman, Rheem), and local climate demands.</p>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item"><strong>45 min</strong><span>Avg. Response</span></div>
+        <div class="stat-item"><strong>97%</strong><span>First-Visit Fix Rate</span></div>
+        <div class="stat-item"><strong>24/7</strong><span>Emergency Available</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problems preview -->
+  <section class="section" id="problems">
+    <div class="container">
+      <div class="section-header">
+        <h2>Recognize <span>These Signs?</span></h2>
+        <p>Pennsylvania weather is hard on HVAC systems. If your system shows any of these symptoms, don't wait.</p>
+      </div>
+      <div class="problems-grid">
+        <a href="/problems/no-cooling/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>No Cooling / AC Issues</h3>
+          <p>Warm air, short cycling, or complete failure often means refrigerant, compressor, or capacitor problems. Same-day service restores comfort fast.</p>
+        </a>
+        <a href="/problems/no-heat/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>No Heat / Furnace Issues</h3>
+          <p>Cold air or no heat can signal igniter, flame sensor, or blower motor failure. Act before pipes freeze.</p>
+        </a>
+        <a href="/problems/strange-noises/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Strange Noises</h3>
+          <p>Banging, rattling, or squealing usually means loose parts, failing motors, or duct issues. Early service prevents bigger failures.</p>
+        </a>
+        <a href="/problems/poor-airflow/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Poor Airflow</h3>
+          <p>Weak air from vents points to dirty filters, blocked ducts, or blower problems that reduce comfort and efficiency.</p>
+        </a>
+        <a href="/problems/high-energy-bills/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>High Energy Bills</h3>
+          <p>Sudden spikes often mean a failing system working harder than it should. A tune-up or repair can cut costs.</p>
+        </a>
+        <a href="/problems/thermostat-problems/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Thermostat Problems</h3>
+          <p>Wrong temperatures, short cycling, or unresponsive controls are often simple fixes that restore proper operation.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Expert HVAC Repair <span>Services</span></h2>
+        <p>Every comfort problem has a root cause. Our certified technicians diagnose accurately and repair correctly.</p>
+      </div>
+      <div class="services-grid">
+        <a href="/services/emergency-hvac-repair/" class="service-card">
+          <span class="service-badge">Urgent Response</span>
+          <h3>Emergency HVAC Repair</h3>
+          <p>When heating or cooling fails at the worst moment, we respond around the clock — no after-hours surcharge surprises.</p>
+          <ul>
+            <li>Available 24 / 7</li>
+            <li>Avg. response under 60 min</li>
+            <li>Stocked service vehicles</li>
+          </ul>
+          <span class="service-link">Learn More →</span>
+        </a>
+        <a href="/services/ac-repair/" class="service-card">
+          <span class="service-badge">Most Common</span>
+          <h3>AC Repair</h3>
+          <p>Central air, mini-splits, and window units. Capacitors, compressors, refrigerant, and full diagnostics for all major brands.</p>
+          <ul>
+            <li>All major brands</li>
+            <li>Written estimate first</li>
+            <li>Same-visit repairs</li>
+          </ul>
+          <span class="service-link">Learn More →</span>
+        </a>
+        <a href="/services/furnace-repair/" class="service-card">
+          <span class="service-badge">Winter Essential</span>
+          <h3>Furnace Repair</h3>
+          <p>Gas &amp; electric furnaces. Igniters, flame sensors, blowers, and heat exchangers diagnosed and repaired correctly.</p>
+          <ul>
+            <li>Gas &amp; electric</li>
+            <li>Safety inspections</li>
+            <li>Same-visit when possible</li>
+          </ul>
+          <span class="service-link">Learn More →</span>
+        </a>
+        <a href="/services/heat-pump-services/" class="service-card">
+          <span class="service-badge">Year-Round</span>
+          <h3>Heat Pump Services</h3>
+          <p>Heating and cooling in one system. Defrost issues, refrigerant, reversing valves, and efficiency tune-ups.</p>
+          <ul>
+            <li>All major brands</li>
+            <li>Efficiency focused</li>
+            <li>Honest repair vs replace</li>
+          </ul>
+          <span class="service-link">Learn More →</span>
+        </a>
+        <a href="/services/hvac-maintenance/" class="service-card">
+          <span class="service-badge">Preventive</span>
+          <h3>HVAC Maintenance</h3>
+          <p>Seasonal tune-ups keep systems efficient, extend lifespan, and catch problems before they become emergencies.</p>
+          <ul>
+            <li>Spring &amp; fall tune-ups</li>
+            <li>Filter &amp; coil cleaning</li>
+            <li>Safety checks</li>
+          </ul>
+          <span class="service-link">Learn More →</span>
+        </a>
+        <a href="/services/hvac-installation/" class="service-card">
+          <span class="service-badge">Replacement</span>
+          <h3>HVAC Installation</h3>
+          <p>Code-compliant furnace, AC, and heat pump installs sized correctly for your Phoenixville home.</p>
+          <ul>
+            <li>Proper load calculations</li>
+            <li>Permit guidance</li>
+            <li>Workmanship warranty</li>
+          </ul>
+          <span class="service-link">Learn More →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <h2>How We Restore Your <span>Comfort</span></h2>
+        <p>Every Phoenixville HVAC repair follows a structured, transparent process.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-num">01</div>
+          <h3>Scheduling &amp; Same-Day Response</h3>
+          <p>Call or text. We confirm your appointment quickly — often offering same-day slots. We gather a brief symptom overview so the technician arrives prepared.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">02</div>
+          <h3>Precision Diagnostic Inspection</h3>
+          <p>We test electrical, refrigerant, airflow, combustion, and controls. Problems are identified with instruments, not assumptions.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">03</div>
+          <h3>Honest Findings &amp; Repair Options</h3>
+          <p>Before any work begins, your technician explains exactly what was found in plain language. You receive a clear written estimate. No pressure.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">04</div>
+          <h3>Skilled Repair</h3>
+          <p>With your approval, the repair begins. Service vehicles carry common parts so most jobs finish on the first visit.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">05</div>
+          <h3>Performance Verification</h3>
+          <p>We verify temperature output, airflow, safety controls, and leave you with a post-repair summary.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map / Location -->
+  <section class="section section-alt" id="location">
+    <div class="container">
+      <div class="section-header">
+        <h2>Find Us in <span>Phoenixville, PA</span></h2>
+        <p>Proudly serving Phoenixville and all of Chester County from Gay Street.</p>
+      </div>
+      <div class="location-block">
+        <div>
+          <h3>📍 25 Gay St, Phoenixville, PA 19460</h3>
+          <p>Serving Phoenixville · Royersford · Collegeville · Kimberton · Spring City · Mont Clare · Oaks and surrounding communities.</p>
+          <a href={`tel:${phone}`} class="btn btn-primary" style="margin-top:1rem">Call {phoneDisplay}</a>
+        </div>
+        <div class="map-embed">
+          <iframe
+            title="Map of 25 Gay St, Phoenixville, PA"
+            width="100%"
+            height="320"
+            style="border:0;border-radius:12px;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-75.5249%2C40.1254%2C-75.5049%2C40.1354&amp;layer=mapnik&amp;marker=40.1304%2C-75.5149"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container" style="text-align:center">
+      <h2>HVAC Down in Phoenixville?</h2>
+      <p style="max-width:560px;margin:0 auto 1.5rem">Don't suffer through heat or cold. If your system stopped working, is making unusual sounds, or is costing too much to run — our team can respond today.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary" style="font-size:1.15rem">Call Now — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>HVAC Repair <span>Questions</span></h2>
+        <p>Real answers to what Phoenixville homeowners ask most.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>My AC or furnace stopped working — is this an emergency?</summary>
+          <p>Yes, especially in extreme weather, with kids, elderly residents, or medical needs. Most complete failures trace to capacitors, igniters, thermostats, or simple electrical issues. Emergency calls placed earlier in the day are typically completed same-day.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How much does HVAC repair cost in Phoenixville?</summary>
+          <p>Simple fixes (capacitors, flame sensors, thermostats) often range from a few hundred dollars. We provide a written estimate before any work begins. Replacement is recommended when the unit is old and repair exceeds roughly 50% of replacement cost.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you repair both heating and cooling systems?</summary>
+          <p>Yes. We service furnaces (gas and electric), central air conditioners, heat pumps, mini-splits, and duct systems from all major brands including Carrier, Trane, Lennox, Goodman, Rheem, and more.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Are you licensed and insured in Pennsylvania?</summary>
+          <p>Yes. All work is performed by licensed, insured technicians familiar with Pennsylvania building codes and local requirements for HVAC systems in Phoenixville and Chester County.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Should I repair or replace my HVAC system?</summary>
+          <p>Repair usually makes sense if the unit is under 12–15 years old and the issue is isolated. Replacement is worth evaluating for units 15+ years old, recurring failures, or when repair cost approaches half the value of a new system. We give an honest assessment either way.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</Layout>

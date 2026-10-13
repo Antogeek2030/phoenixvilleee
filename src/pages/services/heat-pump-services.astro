@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="Heat Pump Services Phoenixville PA | Repair & Maintenance"
+  description="Heat pump repair and service in Phoenixville, PA. Heating and cooling in one system. Same-day diagnostics, licensed technicians."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → Heat Pump Services</div>
+      <h1>Heat Pump Services in Phoenixville, PA</h1>
+      <p>Heat pumps provide efficient year-round comfort. When they struggle with defrost, reversing valves, or low performance, we restore reliable heating and cooling.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Get a Quote — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-block">
+      <h2>Year-Round Comfort Specialists</h2>
+      <p>Heat pumps are increasingly popular in Chester County for their efficiency. Common issues include defrost cycle problems, refrigerant charge, reversing valve failures, and outdoor unit icing. We service air-source and dual-fuel heat pumps from all major brands.</p>
+      <h2>Services We Provide</h2>
+      <ul>
+        <li>Defrost board and sensor diagnosis</li>
+        <li>Reversing valve and refrigerant circuit repair</li>
+        <li>Outdoor unit fan and compressor service</li>
+        <li>Auxiliary heat strip and dual-fuel coordination</li>
+        <li>Seasonal performance tune-ups</li>
+      </ul>
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call for Heat Pump Service — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

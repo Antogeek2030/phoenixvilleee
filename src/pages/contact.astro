@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="Contact Us | HVAC Repair Phoenixville PA"
+  description="Contact HVAC Repair Phoenixville for same-day service. Call (610) 555-0199 or reach us at 25 Gay St, Phoenixville, PA 19460."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Contact</div>
+      <h1>Contact Us</h1>
+      <p>Ready for same-day HVAC service? Call or message us — we respond quickly.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Get in Touch</h2>
+      <p><strong>Phone:</strong> <a href={`tel:${phone}`}>{phoneDisplay}</a> (24/7 for emergencies)</p>
+      <p><strong>Address:</strong> 25 Gay St, Phoenixville, PA 19460</p>
+      <p><strong>Service Area:</strong> Phoenixville, Royersford, Collegeville, Kimberton, Spring City, Mont Clare, Oaks, and surrounding Chester County communities.</p>
+      <p>For the fastest response, call us directly. Tell us your symptoms and address so we can dispatch prepared.</p>
+      <div style="margin-top:2rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

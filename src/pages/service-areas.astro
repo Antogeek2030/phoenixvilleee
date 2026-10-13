@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="Service Areas | HVAC Repair Phoenixville PA"
+  description="HVAC repair serving Phoenixville, Royersford, Collegeville, Kimberton, Spring City, and Chester County PA."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Service Areas</div>
+      <h1>Areas We Serve</h1>
+      <p>Based in Phoenixville, we provide same-day HVAC repair across Chester County and nearby communities.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Primary Service Area</h2>
+      <ul>
+        <li>Phoenixville</li>
+        <li>Royersford</li>
+        <li>Collegeville</li>
+        <li>Kimberton</li>
+        <li>Spring City</li>
+        <li>Mont Clare</li>
+        <li>Oaks</li>
+        <li>Chester Springs</li>
+        <li>Malvern (select areas)</li>
+        <li>Surrounding Chester County communities</li>
+      </ul>
+      <p>Not sure if we cover your address? Call {phoneDisplay} — if we can reach you same-day, we will.</p>
+      <div style="margin-top:2rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

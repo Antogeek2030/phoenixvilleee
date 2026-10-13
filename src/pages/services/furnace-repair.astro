@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="Furnace Repair Phoenixville PA | Same-Day Heating Service"
+  description="Expert furnace repair in Phoenixville, PA. Gas and electric furnaces. Same-day service, licensed technicians, upfront pricing."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → Furnace Repair</div>
+      <h1>Furnace Repair in Phoenixville, PA</h1>
+      <p>Reliable heat is essential through Chester County winters. When your furnace fails, we diagnose accurately and restore warmth fast.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Get a Quote — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-block">
+      <h2>Gas &amp; Electric Furnace Experts</h2>
+      <p>Most Phoenixville homes use gas furnaces. Common failures include hot-surface igniters, flame sensors, pressure switches, inducer motors, and blower motors. We also service electric furnaces and dual-fuel systems.</p>
+
+      <h2>Repairs We Perform Daily</h2>
+      <h3>Igniter &amp; Flame Sensor Replacement</h3>
+      <p>The furnace tries to start but shuts down. These parts are inexpensive and usually fixed on the first visit.</p>
+      <h3>Blower Motor &amp; Capacitor Service</h3>
+      <p>Weak or no airflow from vents. We test and replace motors, belts, and capacitors as needed.</p>
+      <h3>Inducer Motor &amp; Pressure Switch</h3>
+      <p>Safety components that prevent the furnace from running if venting is blocked or the inducer fails.</p>
+      <h3>Heat Exchanger Inspection</h3>
+      <p>Cracked heat exchangers are a safety concern (carbon monoxide risk). We inspect thoroughly and advise honestly on repair vs. replacement.</p>
+      <h3>Control Board &amp; Thermostat Issues</h3>
+      <p>Intermittent operation or error codes often trace to controls. We diagnose and replace only what is necessary.</p>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call for Furnace Repair — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

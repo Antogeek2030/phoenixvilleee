@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<Layout title={`${post.data.title} | HVAC Repair Phoenixville`} description={post.data.description}>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → <a href="/blog/">Blog</a> → {post.data.title}</div>
+      <h1>{post.data.title}</h1>
+      <p>{post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} · {post.data.author}</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <Content />
+      <div style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--border)">
+        <p>Need HVAC service in Phoenixville? <a href="tel:+16105550199">(610) 555-0199</a></p>
+      </div>
+    </div>
+  </section>
+</Layout>

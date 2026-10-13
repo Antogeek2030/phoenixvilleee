@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout 
+  title="AC Repair Phoenixville PA | Same-Day Air Conditioning Service"
+  description="Expert AC repair in Phoenixville, PA. Same-day service for central air, mini-splits, and more. Licensed technicians, upfront pricing."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → AC Repair</div>
+      <h1>AC Repair in Phoenixville, PA</h1>
+      <p>Central air and mini-split systems keep Phoenixville homes comfortable through humid Pennsylvania summers. When they fail, we diagnose accurately and repair with quality parts.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Get a Quote — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-block">
+      <h2>Air Conditioning Experts</h2>
+      <p>Most homes in Phoenixville and Chester County rely on central air or ductless mini-splits. These systems develop predictable failure points: capacitors, contactor, compressor issues, refrigerant leaks, dirty coils, and failing blower motors. We service all major brands including Carrier, Trane, Lennox, Goodman, Rheem, and Bryant.</p>
+
+      <h2>Repairs We Perform Daily</h2>
+      <h3>Capacitor &amp; Contactor Replacement</h3>
+      <p>The most common AC failures in summer. We test and replace start/run capacitors and contactors so your system starts reliably again.</p>
+      <h3>Refrigerant Leak Detection &amp; Recharge</h3>
+      <p>Low refrigerant causes poor cooling and can damage the compressor. We locate leaks, repair when feasible, and charge to exact specifications.</p>
+      <h3>Compressor &amp; Fan Motor Service</h3>
+      <p>Outdoor unit issues ranging from hard-start problems to complete motor failure. We diagnose and repair or recommend replacement when needed.</p>
+      <h3>Coil Cleaning &amp; Condensate Drain Clearing</h3>
+      <p>Dirty coils and clogged drains reduce efficiency and can cause water damage. Professional cleaning restores performance.</p>
+      <h3>Mini-Split Repair</h3>
+      <p>Error codes, indoor unit issues, and outdoor unit failures on ductless systems from Mitsubishi, Fujitsu, Daikin, and others.</p>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call for AC Repair — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>
